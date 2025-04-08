@@ -1,0 +1,11 @@
+{% extends 'admin/admin.html.twig' %}
+
+{% block title "Iceberg : " ~ iceberg.titre %}
+
+{% block body %}
+
+<h1>{{ iceberg.titre }}</h1>
+
+{{ form(form) }}
+
+{% endblock %}
